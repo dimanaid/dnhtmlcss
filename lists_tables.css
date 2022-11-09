@@ -1,0 +1,48 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: 8px;
+  border-bottom: 1px solid blue;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table td:hover {
+  background-color: beige;
+  color: blue;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.table td:nth-child(even) {
+  background: lightgray;
+}
+
+/*.table td:nth-child(2) .table td:nth-child(4) .table td:nth-child(6){
+  background: lightgray;
+}*/
+
+.table tr:nth-child(even) {
+  background: darkgray;
+}
+
+.table tr:nth-child(odd) {
+  background: lightgray;
+}
+
+.table thead tr th {
+  background: brown;
+  font-size: 1.7em;
+  font-style: italic;
+  color: yellow; 
+}

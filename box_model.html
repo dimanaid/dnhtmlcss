@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      /*cancels chosen default css settings*/
+    }
+  
+    body {
+      margin: 0;
+    }
+
+    .container{
+      width: 400px;
+      margin: auto;
+      /* margin auto- auto centre */
+    }
+
+    /*.box {
+      background-color: firebrick;
+      color: white;
+
+      padding: 15px;
+
+      border: 4px solid paleturquoise;
+
+      margin: 20px;
+    }*/
+
+    .blocks {
+      width: 100%;
+    }
+
+    .blocks .block {
+      width: 33.33%;
+      background: blue;
+      height: 50px;
+      float: left;
+      border: 4px solid yellow;
+      box-sizing: border-box;
+
+    }
+
+  </style>
+  <title>Box model</title>
+</head>
+<body>
+
+ 
+ <div class="container">
+    <div class="box">
+      <h2>Box 1</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, temporibus.</p>
+    </div>
+
+    <div class="box">
+      <h2>Box 2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, temporibus.</p>
+    </div>
+  </div>
+
+  <div class="blocks">
+      <div class="block">BLOCK 1</div>
+      <div class="block">BLOCK 2</div>
+      <div class="block">BLOCK 3</div>
+  </div>
+  
+</body>
+</html>

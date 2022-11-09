@@ -1,0 +1,46 @@
+a {
+  color: chocolate;
+  text-decoration: none;
+  /* text-decoration none to remove link underline*/
+  /*transition: all 2s;*/
+  /*transition change the behaviour of the hover*/
+}
+
+a:hover {
+  color: aliceblue;
+  padding: 0;
+  margin: 0;
+
+  /*font-size: 2rem;*/
+}
+
+/* a:visited{
+  color: red;
+}
+Changes the color of visited link*/
+
+a:active {
+  color: blue;
+}
+
+.btn {
+  background: darkkhaki;
+  padding: 10px;
+  color: blue;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+.btn:active {
+  color: black;
+  background: darkolivegreen 0.2;
+  font: 28px bolder;
+  font-variant-caps: titling-caps;
+}
