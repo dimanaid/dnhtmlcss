@@ -1,0 +1,183 @@
+/* Shortcut to create a note cmd + / */
+
+/* Reference to all elements */
+
+/* *{
+    font-family: Sarala, sans-serif;
+} */
+
+/*Tag Name*/
+body{
+    background: #ff9999;
+}
+
+/* id */
+#header{
+    background: #ddd;
+    color: grey;
+    padding: 50px 170px;
+    border: solid 5px;
+    margin-bottom: 40px;
+    }
+
+/* Class */
+.card h2 { 
+    font-size: 50px;
+    padding: 50px 250px;
+    border: solid 5px;
+}
+
+.card p {
+padding: 10px 20px 50px 50px;
+}
+
+.positions {
+    background: blue;
+    color: yellow;
+    margin-top: 110px;
+} 
+
+.html{
+    background: orange;
+    color: white;
+}
+
+.css{
+    background: red;
+    color: white;
+}
+
+.css h2 { 
+    font-size: 50px;
+    padding: 50px 280px;
+    border: solid 5px;
+}
+
+.colors {
+    background: yellow;
+    color: white;
+}
+
+.borders {
+    background: burlywood;
+    color: white;
+}
+
+.borders h2 {
+    border: solid;
+    padding: 50px 250px;
+}
+
+.links {
+    background: violet;
+    color: white;
+}
+
+.lists {
+    margin-bottom: 0;
+}
+
+.tables {
+    margin-top: 0;
+}
+
+.lists, .tables {
+    background: yellowgreen;
+    color: white;
+}
+
+.navbar {
+    background: yellow;
+    /*padding: 10px 20px;*/
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 2; to bring the header on top of the scrolled pages*/
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.navbar ul li a:hover {
+    background: lightblue;
+    padding: 0px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.playground {
+    position: relative;
+    /* Position relative or absolute freezes the child within the block.*/
+    border: 5px solid yellow;
+    height: 300px;
+    padding: 20px;
+}
+
+.pos-box {
+    /*position: static;
+    Position static is default and objects follows the block changes.*/
+    /*position: absolute;
+    Position absolute- block is not changing its position.
+    Position absolute allows to use left/right/top/bottom
+    
+    position: fixed;
+    Position fixed- the block is permanently fixed to set parameters*/
+
+    width: 50px;
+    height: 50px;
+    background: coral;
+}
+
+.display {
+    background: greenyellow;
+    color: darkgreen;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.inline li {
+/*inline, block, inline-block*/
+    display: inline;
+}
+
+.box {
+    width: 32.9%;
+    border: 2px dotted darkgreen;
+    background: lightyellow;
+    /*display: inline;
+    puts blocks in line*/
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.img {
+    width: 200px;
+    display: block;
+    padding: 20px;
+    margin: 40px auto;
+
+}
+
+
+
+
+
+/* Multiple selectors */
+
+

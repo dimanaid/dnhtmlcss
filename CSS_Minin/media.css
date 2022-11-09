@@ -1,0 +1,19 @@
+.container {
+  max-width: 750px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.box {
+  padding: 20px;
+  background: #eee;
+  font-size: 2em;
+}
+
+@media (max-width: 500px) {
+  .box {
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+  }
+}

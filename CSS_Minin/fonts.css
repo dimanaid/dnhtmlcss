@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+body {
+  /* font-family: Sarala, sans-serif; */
+  /* font-weight: bolder; */
+  line-height: 2.5em;
+  font: bolder 18px Sarala, sans-serif;
+}
